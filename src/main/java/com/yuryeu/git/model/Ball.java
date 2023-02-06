@@ -9,5 +9,6 @@ import lombok.ToString;
 public class Ball {
     private final String color;
     private final int weight;
+    @ToString.Exclude
     private boolean inUse;
 }
