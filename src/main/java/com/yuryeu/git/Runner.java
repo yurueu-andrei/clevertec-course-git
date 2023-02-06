@@ -12,7 +12,7 @@ public class Runner {
         Basket basket1 = new Basket();
         Basket basket2 = new Basket();
 
-        Basketballer lebronJames = new Basketballer("LeBron", "James", 198, 121);
+        Basketballer lebronJames = new Basketballer("LeBron", "James", 198, 111);
 
         lebronJames.attemptToDunk(basket1, redBall);
         lebronJames.attemptToScoreAThreePointBall(basket2, blueBall);
