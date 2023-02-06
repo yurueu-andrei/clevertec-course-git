@@ -10,7 +10,9 @@ public class Basket {
     private List<Ball> balls = new ArrayList<>();
 
     public void addBall(Ball ball) {
-        ball.setInUse(true);
-        balls.add(ball);
+        if (ball.isInUse()) {
+            ball.setInUse(true);
+            balls.add(ball);
+        }
     }
 }
