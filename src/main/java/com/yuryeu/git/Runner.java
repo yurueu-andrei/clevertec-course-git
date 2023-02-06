@@ -14,6 +14,7 @@ public class Runner {
 
         Basketballer lebronJames = new Basketballer("LeBron", "James", 198, 121);
 
+        lebronJames.attemptToDunk(basket1, redBall);
         lebronJames.attemptToScoreAThreePointBall(basket2, blueBall);
     }
 }
