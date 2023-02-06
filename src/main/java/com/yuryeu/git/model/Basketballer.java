@@ -19,4 +19,13 @@ public class Basketballer {
             System.out.println("Try it again :(");
         }
     }
+
+    public void attemptToDunk(Basket basket, Ball ball) {
+        if (height > 185 && verticalJumpHeight > 75 && Math.random() < 0.85) {
+            basket.addBall(ball);
+            System.out.println("BOOM!!!");
+        } else {
+            System.out.println("You are too short or unlucky :(");
+        }
+    }
 }
